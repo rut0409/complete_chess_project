@@ -57,7 +57,7 @@ CLOCK_TICK = 15
 SCREEN = pygame.display.set_mode((8*SQUARE_SIDE, 8*SQUARE_SIDE), pygame.RESIZABLE)
 SCREEN_TITLE = 'Chess Game'
 
-pygame.display.set_icon(pygame.image.load('images/chess_icon.ico'))
+pygame.display.set_icon(pygame.image.load('chess_icon.ico'))
 pygame.display.set_caption(SCREEN_TITLE)
 
 def resize_screen(square_side_len):
